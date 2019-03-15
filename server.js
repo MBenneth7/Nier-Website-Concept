@@ -4,7 +4,7 @@ const path = require('path');
 const router = express.Router();
 require('dotenv').config();
 
-app.use(express.static(__dirname));
+app.use(express.static("/Public"));
 
 
 router.get('/',function(req,res){
