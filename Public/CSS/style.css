@@ -1,0 +1,339 @@
+*{
+    margin: 0px auto 0px auto;
+    text-align: left;
+}
+
+#container{
+    width: 70%;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+body{
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    color: black;
+    background: url("../images/Nier%20Automata%20Wallpaper.png") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+#mainHeader img{
+    width: 500px;
+    display: inline-block;
+    margin: 50px 0px 50px 110px;
+}
+
+#mainMenu ul{
+    width: 610px;
+    margin: 0px 0px 0px 60px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+#mainMenu ul li{
+    float: left;
+}
+
+#mainMenu ul li a{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 18px;
+}
+
+#mainMenu ul li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: line-through;
+}
+
+/*HOMEPAGE.HTML STYLE*/
+
+#synopsis{
+    width: 610px;
+    display:inline-block;
+    margin: 50px 0px 0px 60px;
+    
+}
+
+#synopsis h1{
+    font-size: 20px;
+    width: 190px;
+    margin: 0px 0px 25px 0px;
+}
+
+#synopsis h1:hover{
+    background-color: black;
+    color: white;
+    text-decoration: line-through;
+}
+
+#synopsis .synImg{
+    width: 600px;
+}
+
+#synopsis p{
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 30px 0px 0px 0px
+        
+}
+
+#synopsis span.title{
+    padding: 0px;
+    background-color: black;
+    color: white;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    
+}
+
+#synopsis .coverArt{
+    display: inline-block;
+    width: 300px;
+    margin: 20px 0px 0px 0px;
+    float: left;
+    
+
+}
+
+#synopsis ul{
+    display: inline-block;
+    padding: 50px 0px;
+    margin: 50px 0px 0px 5px;
+    width: 300px;
+    list-style: none;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+#synopsis ul li{
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+#synopsis .gameTitle{
+    font-size: 30px;
+}
+
+#synopsis span.crossText{
+    text-decoration: line-through;
+}
+
+/*HOMEPAGE.HTML CSS END*/
+
+/*STORY.HTML CSS*/
+
+#story{
+    width: 610px;
+    margin: 100px 0px 0px 60px;
+    padding: 0px;
+}
+
+#story h2{
+    width: 400px;
+    margin: 0px 0px 10px 0px;  
+}
+
+#story h3{
+    width: 230px;
+    margin: 36px 0px 5px 380px;
+}
+
+#story h4{
+    width: 220px;
+    margin: 0px 0px 10px 0px;  
+    background-color: black;
+    color: white;
+}
+
+#story h5{
+    margin: 50px 0px 35px 380px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-decoration: line-through
+}
+
+.storyImg{
+    width: 400px;
+    margin: 20px 0px 20px 95px;
+}
+
+#story p{
+    line-height: 25px;
+}
+
+#story .firstHomeLink{
+    
+    display: inline-block;
+    margin: 0px 0px 0px 230px;
+    padding: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#story .firstNextLink{
+    display: inline-block;
+    margin: 0px 0px 0px 180px;
+    padding: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#story .nextLink{
+    display: inline-block;
+    margin: 0px 0px 0px 190px;
+    padding: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;  
+}
+
+#story .prevLink{
+    display: inline-block;
+    margin: 0px;
+    padding: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white; 
+    
+    
+}
+
+#story .homeLink{
+    display: inline-block;
+    margin: 0px 0px 0px 150px;
+    padding: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;  
+}
+
+#story .iconSpace{
+    padding-right: 5px; 
+}
+
+#story .prevIconSpace{
+    padding-left: 5px;
+}
+
+#pageLinks{
+    width: 610px;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+/*STORY.HTML CSS END*/
+
+/*CHARACTER.HTML CSS*/
+
+#character{
+    width: 610px;
+    margin: 100px 0px 0px 47px;
+    align-content: center;
+}
+
+#character h1{
+    width: 250px;
+    text-align: center;
+    margin: 0px 0px 15px 180px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+
+.Id{
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.Id:hover{
+    background-color: white;
+}
+
+
+#character .link:link, .link:visited{
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    
+}
+
+#character .link:hover, .link:active{
+    font-weight: bolder;
+    background-color: white;
+    color:black;
+    text-decoration: line-through;
+}
+
+
+
+#character .profile{
+    text-align: center;
+}
+
+#character span.centerName{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+/*CHARACTERS.HTML CSS END*/
+
+/*TWOB-PROFILE.HTML CSS*/
+/*NINES-PROFILE.HTML CSS*/
+/*ATWO-PROFILE.HTML CSS*/
+
+#characterPage{
+    width: 610px;
+    margin: 0px 0px 0px 47px;
+    align-content: center;
+}
+
+#characterPage h1{
+    width: 50px;
+    margin: 80px 0px 15px 260px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#characterPage .bodyImg{
+    width: 250px;
+    display: inline-block;
+margin: 20px 0px 0px 160px;
+        
+}
+
+/*TWOB-PROFILE.HTML CSS END*/
+/*NINES-PROFILE.HTML CSS END*/
+/*ATWO-PROFILE.HTML CSS END*/
+
+
+
