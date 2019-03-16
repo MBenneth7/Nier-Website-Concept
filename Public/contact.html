@@ -1,0 +1,147 @@
+<html>
+    
+    <head>
+        
+        <link rel = "stylesheet" href = "CSS/style.css" type = "text/css">
+        
+        <title>Weapons</title>
+
+    </head>
+    
+    <body>
+        
+        <div id = "container">
+        
+            <div id = "mainHeader">
+
+                <a href = "index.html"><img src = "images/Nier%20Logo.png" alt = "nierLogo"></a>
+
+            </div>  <!--mainHeader END-->
+
+            <div id = "mainMenu">
+
+                <ul>
+                    <li><a href = "story.html">St[O]ry</a></li>
+                    <li><a href =  "characters.html">Char[A]cters</a></li>
+                    <li><a href = "gameplay.html">[G]ameplay</a></li>
+                    <li><a href = "music.html">Musi[C]</a></li>
+                    <li><a href = "contact.html">Con[T]act</a></li>
+                </ul>
+
+            </div> <!--mainMenu END-->
+          
+        <div id = "contact">
+            
+            <section id = "intro">
+            
+            <h1>Contact Us</h1>
+            <p class = "boldText">Fill out form to set up an appointment.</p>
+            
+            </section>
+
+            <section id = "content">
+
+                <form method = "post" action = "someScript.php">
+
+                    <p>
+                        <label for = "firstName">First Name: </label>
+                        <input type = "text" name = "firstName">
+                    </p>
+
+                    <p>
+                        <label for = "lastName">Last Name: </label>
+                        <input type = "text" name = "lastName">
+                    </p>
+
+                    <p>
+                        <label for = "email">Email: </label>
+                        <input type = "email" name = "email">
+                    </p>
+
+                    <p>
+                        <label for = "browser">Browser: </label>
+                        <input list = "browser" name = "browser">
+                        <datalist id = "browser">
+                            <option value = "Safari"></option>
+                            <option value = "Chrome"></option>
+                            <option value = "Opera"></option>
+                            <option value = "Firefox"></option>
+                            <option value = "Internet Edge"></option>
+                        </datalist>
+                    </p>
+
+                    <fieldset>
+
+                        <legend>Appointment Details</legend>
+
+                        <p>
+                            <label for = "tel">Telephone#: </label>
+                            <input type = "tel" name = "tel">
+                        </p>
+
+                        <p>
+                            <label for = "date">Date: </label>
+                            <input type = "date" name = "date">
+                        </p>
+
+                        <p>
+                            <label for = "time">Time: </label>
+                            <input type = "time" name = "time">
+                        </p>
+
+                        <p>
+                            <label id = "availLabel" for = "avail">Best Time to Call: </label>
+
+                            <input type = "radio" name = "avail" value = "Morning" checked>Morning
+
+                            <input type = "radio" name = "avail" value = "Afternoon">Afternoon
+
+                            <input type = "radio" name = "avail" value = "Evening">
+                            Evening
+                        </p>
+
+                        <p>
+                            <label for = "budget">Budget: </label>
+                            <select type = "list" name = "budget">
+
+                                <option>--Select Value--</option>
+                                <option value = "$100-$500">$100-$500</option>
+                                <option value = "$500-$1000">$500-$1000</option>
+                                <option value = "$1000-$1500">$1000-$1500</option>
+                                <option value = "$1500-$2000">$1500-$2000</option>
+                                <option value = "$2000-$2500">$2000-$2500</option>
+                            </select>
+                        </p>    
+
+                        <section id = "commentBox">
+
+                            <p>
+                                <span class = "boldText">Comments</span> (<span class = "smallText">250 character limit</span>)
+                            </p>
+
+                            <textarea rows = "5" cols = "45" maxlength = "250"></textarea>
+
+                        </section>
+
+                        <p>
+                            <label for = "color">Color Code: </label>
+                            <input type = "color" name = "color">
+                        </p>    
+
+                        </fieldset>
+
+                        <p id = "submitButton">
+                            <input type = "submit" name = "submit" value = "Submit Form">
+                        </p>
+
+                </form>
+
+            </section>
+        
+        </div> <!--contact END-->   
+            
+        </div><!--container END-->
+            
+    </body>
+
+</html>
